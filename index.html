@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIPHY - Be Animated</title>
+    <link rel="icon" type="image/x-icon" href="images/GIPHYfav.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body onload="homePage()">
+    <div class="header">
+        <span><svg height="2500" width="2500" xmlns="http://www.w3.org/2000/svg" viewBox="4 2 16.32 20"><g fill="none" fill-rule="evenodd"><path d="M6.331 4.286H17.99v15.428H6.33z" fill="#000"/><g fill-rule="nonzero"><path d="M4 3.714h2.331v16.572H4z" fill="#04ff8e"/><path d="M17.989 8.286h2.331v12h-2.331z" fill="#8e2eff"/><path d="M4 19.714h16.32V22H4z" fill="#00c5ff"/><path d="M4 2h9.326v2.286H4z" fill="#fff152"/><path d="M17.989 6.571V4.286h-2.332V2h-2.331v6.857h6.994V6.571" fill="#ff5b5b"/><path d="M17.989 11.143V8.857h2.331" fill="#551c99"/></g><path d="M13.326 2v2.286h-2.332" fill="#999131"/></g></svg></span>  
+        <h1>GIPHY </h1> 
+    </div>
+    <div class="searchbar">
+        <input id="input" type="text"  placeholder="Search for GIFs and Stickers :)">
+        <button id="searchbtn" class="searchbtn" onclick="sendApiRequest()"><i class="fa fa-search"></i></button>
+    </div>
+    <div id="homegifs" class="homegifs">
+        <h1 id="header1">Trending GIFs</h1>
+    </div>
+
+    
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

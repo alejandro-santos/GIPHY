@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(18, 18, 18);;
+    color: white;
+}
+
+/* Header */
+
+.header {
+    background-color: none;
+    height: 70px;
+    width: 50%;
+    padding: 0 0 0 0;
+    margin: auto;         
+    user-select: none;
+    pointer-events: none;
+    display: flex;
+}
+.header img {
+    width: 45px;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    padding: 15px 0 0 0;
+}
+
+/*Searchbar */
+
+.searchbar {
+    color: white;
+    background-color: none;
+    height: 70px;
+    width: 50%;
+    margin: auto;
+    padding-top: 5px;
+    display: flex;
+}
+
+#input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    height: 61px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 0px;
+    border: none;    
+}
+
+
+
+#searchbtn {
+    border: none;
+    font-size: 30px;
+    height: 61px;
+    float: right;
+    width: auto;
+    outline-style: none;
+    color: white;
+    background: rgb(242,7,173);
+    background: linear-gradient(90deg, rgba(242,7,173,1) 0%, rgba(150,63,171,1) 100%);
+}
+
+
+#homegifs {
+    height: auto;
+
+    padding: 10px;
+    user-select: none;
+    pointer-events: none
+}
+
+#homegifs img {
+    width: 25%;
+    padding-top: 0px;
+    margin-bottom: -5px;
+}
+
+#homegifs h1 {
+    font-family: "Robot", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#clear {
+    text-align: center;
+}
+
+#clearbtn {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    border-radius: 25px;
+    padding: 10px 50px;
+}
+
+#clearbtn:hover {
+    background-color: rgb(179, 178, 178);
+}
+
+input:focus {
+    outline: none;
+}
+
+.homegifs {
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+}
+
+
+svg {
+    padding-top: 10px;
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+
